@@ -18,43 +18,43 @@ void mostrarArcano(int arcano) {
 printf("\nO seu Arcano Pessoal é: %d - ", arcano);
     
     if (arcano == 3) {
-        printf("III – A Imperatriz\n");
+        printf("3 – A Imperatriz\n");
     } else if (arcano == 4) {
-        printf("IV – O Imperador\n");
+        printf("4 – O Imperador\n");
     } else if (arcano == 5) {
-        printf("V – O Papa\n");
+        printf("5 – O Papa\n");
     } else if (arcano == 6) {
-        printf("VI – Os Enamorados\n");
+        printf("6 – Os Enamorados\n");
     } else if (arcano == 7) {
-        printf("VII – O Carro\n");
+        printf("7 – O Carro\n");
     } else if (arcano == 8) {
-        printf("VIII – A Justiça\n");
+        printf("8 – A Justiça\n");
     } else if (arcano == 9) {
-        printf("IX – O Eremita\n");
+        printf("9 – O Eremita\n");
     } else if (arcano == 10) {
-        printf("X – A Roda da Fortuna\n");
+        printf("10 – A Roda da Fortuna\n");
     } else if (arcano == 11) {
-        printf("XI – A Força\n");
+        printf("11 – A Força\n");
     } else if (arcano == 12) {
-        printf("XII – O Enforcado\n");
+        printf("12 – O Enforcado\n");
     } else if (arcano == 13) {
-        printf("XIII – A Morte\n");
+        printf("13 – A Morte\n");
     } else if (arcano == 14) {
-        printf("XIV – A Temperança\n");
+        printf("14 – A Temperança\n");
     } else if (arcano == 15) {
-        printf("XV – O Diabo\n");
+        printf("15 – O Diabo\n");
     } else if (arcano == 16) {
-        printf("XVI – A Torre\n");
+        printf("16 – A Torre\n");
     } else if (arcano == 17) {
-        printf("XVII – A Estrela\n");
+        printf("17 – A Estrela\n");
     } else if (arcano == 18) {
-        printf("XVIII – A Lua\n");
+        printf("18 – A Lua\n");
     } else if (arcano == 19) {
-        printf("XIX – O Sol\n");
+        printf("19 – O Sol\n");
     } else if (arcano == 20) {
-        printf("XX – O Julgamento\n");
+        printf("20 – O Julgamento\n");
     } else if (arcano == 21) {
-        printf("XXI – O Mundo\n");
+        printf("21 – O Mundo\n");
     } else if (arcano == 22) {
         printf("22 – O Louco\n");
     } else if (arcano == 23) {
