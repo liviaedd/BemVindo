@@ -15,31 +15,54 @@ int calcularArcano(int dia, int mes, int ano) {
 }
 
 void mostrarArcano(int arcano) {
-    printf("\nO seu Arcano Pessoal é: %d - ", arcano);
-    switch(arcano) {
-        case 3:  printf("3 – A Imperatriz\n"); break;
-        case 4:  printf("4 – O Imperador\n"); break;
-        case 5:  printf("5 – O Papa\n"); break;
-        case 6:  printf("6 – Os Enamorados\n"); break;
-        case 7:  printf("7 – O Carro\n"); break;
-        case 8:  printf("8 – A Justiça\n"); break;
-        case 9:  printf("9 – O Eremita\n"); break;
-        case 10: printf("10 – A Roda da Fortuna\n"); break;
-        case 11: printf("11 – A Força\n"); break;
-        case 12: printf("12 – O Enforcado\n"); break;
-        case 13: printf("13 – A Morte\n"); break;
-        case 14: printf("14 – A Temperança\n"); break;
-        case 15: printf("15 – O Diabo\n"); break;
-        case 16: printf("16 – A Torre\n"); break;
-        case 17: printf("17 – A Estrela\n"); break;
-        case 18: printf("18 – A Lua\n"); break;
-        case 19: printf("19 – O Sol\n"); break;
-        case 20: printf("20 – O Julgamento\n"); break;
-        case 21: printf("21 – O Mundo\n"); break;
-        case 22: printf("22 – O Louco\n"); break;
-        case 23: printf("23 – O Mago\n"); break;
-        case 24: printf("24 – A Sacerdotisa\n"); break;
-        default: printf("Arcano fora do intervalo padrão (3 a 24).\n"); break;
+printf("\nO seu Arcano Pessoal é: %d - ", arcano);
+    
+    if (arcano == 3) {
+        printf("III – A Imperatriz\n");
+    } else if (arcano == 4) {
+        printf("IV – O Imperador\n");
+    } else if (arcano == 5) {
+        printf("V – O Papa\n");
+    } else if (arcano == 6) {
+        printf("VI – Os Enamorados\n");
+    } else if (arcano == 7) {
+        printf("VII – O Carro\n");
+    } else if (arcano == 8) {
+        printf("VIII – A Justiça\n");
+    } else if (arcano == 9) {
+        printf("IX – O Eremita\n");
+    } else if (arcano == 10) {
+        printf("X – A Roda da Fortuna\n");
+    } else if (arcano == 11) {
+        printf("XI – A Força\n");
+    } else if (arcano == 12) {
+        printf("XII – O Enforcado\n");
+    } else if (arcano == 13) {
+        printf("XIII – A Morte\n");
+    } else if (arcano == 14) {
+        printf("XIV – A Temperança\n");
+    } else if (arcano == 15) {
+        printf("XV – O Diabo\n");
+    } else if (arcano == 16) {
+        printf("XVI – A Torre\n");
+    } else if (arcano == 17) {
+        printf("XVII – A Estrela\n");
+    } else if (arcano == 18) {
+        printf("XVIII – A Lua\n");
+    } else if (arcano == 19) {
+        printf("XIX – O Sol\n");
+    } else if (arcano == 20) {
+        printf("XX – O Julgamento\n");
+    } else if (arcano == 21) {
+        printf("XXI – O Mundo\n");
+    } else if (arcano == 22) {
+        printf("22 – O Louco\n");
+    } else if (arcano == 23) {
+        printf("23 – O Mago\n");
+    } else if (arcano == 24) {
+        printf("24 – A Sacerdotisa\n");
+    } else {
+        printf("Arcano fora do intervalo padrão (3 a 24).\n");
     }
 }
 
